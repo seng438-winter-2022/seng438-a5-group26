@@ -39,5 +39,6 @@ Team work was divided into pairs to practice pair programming. Part 1 was given 
 Each pair worked on the reliability testing before coming together to compare results.
 
 # 7. Difficulties encountered, challenges overcome, and lessons learned
+In part 2, forming the charts was a little confusing when trying to find out which cells to modify and how to modify them so that the chart would appear properly. After some trial and error, we made it work.
 
 # 8. Comments/feedback on the lab itself

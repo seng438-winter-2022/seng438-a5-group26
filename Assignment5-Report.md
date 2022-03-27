@@ -36,7 +36,7 @@ covariates to get an overall view before further analysis. The Covariates tested
   - Discrete Weibull (Type III)
   - Geometric
   - Negative Binomial (order 2)
-  - Truncated Logistic
+  - Truncated Logistic <br />
 The overall plot is observed below:
 
 ![](media/exported_part1_allmodels.png) 

@@ -27,6 +27,22 @@ This lab also provides the opportunity to compare different reliability assessme
 
 # 2. Assessment Using Reliability Growth Testing 
 
+The first step taken using the Reliability Growth Testing (vis SFRAT tool) was to plot all the models on all the 
+covariates to get an overall view before further analysis. The Covariates tested were: E, F, C. The models were:
+  - IFR Salvia & Bollinger
+  - IFR Generalized Salvia & Bollinger
+  - S Distribution
+  - Discrete Weibull (Order 2)
+  - Discrete Weibull (Type III)
+  - Geometric
+  - Negative Binomial (order 2)
+  - Truncated Logistic
+The overall plot is observed below:
+
+![](media/exported_part1_allmodels.png) 
+
+...
+
 # 3. Assessment Using Reliability Demonstration Chart
 The assement done with the RDC produced varying results depending on our metrics. As shown in the 3 figures below, depending on the reliability metrics, the program may or may not be considered reliable.
 

@@ -48,6 +48,10 @@ The models were then compared based on their best fit using the model comaprison
 ![](media/ModelComparisons.PNG)
 The picture shows the models that have a critic of 1.0 or very close to 1.0 and therefore any choice of these models is good to use for our data. Specifically, the discrete weibull type 3 on covariate F has a 1.0 critic for mean and median and therefore is the best model to use for our data based on the model comparison. All other ran models had at most 0.98 Critic and thus were not as strong models according to the comparison tool.
 
+The following two figures are the failures per interval graph using the best model (DW3 on F) and the failure intensity using the best model(DW# onF) <br />
+![](media/failsperinterval_dw3.PNG)
+
+![](media/failureintensity_DW3.PNG)
 
 # 3. Assessment Using Reliability Demonstration Chart
 The assement done with the RDC produced varying results depending on our metrics. As shown in the 3 figures below, depending on the reliability metrics, the program may or may not be considered reliable.

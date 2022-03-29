@@ -52,7 +52,20 @@ The following two figures are the failures per interval graph using the best mod
 ![](media/failsperinterval_dw3.PNG)
 ![](media/failureintensity_DW3.PNG)
 
-<br />The above graph plots the failure intensity with the default target failure intensity of 1.0 (default to C-SFRAT tool). From this plot it appears that the failure 
+<br /> The first plot plots the failure number versus the time interval. As seen in the plot, it increases until we hit the end of the testing interval. From here, it 
+is difficult to comment on reliability growth since it does not appear to plateau as the interval increases.
+As a result, the predictive tool of C-SFRAT was used to verify whether the failures plateaued as the time intervals increased beyond the testing interval given.
+The first plot was taken for double the testing interval, ie. 33 additional intervals:
+![](media/FailsInterval33Predicted.PNG)
+And the second plot was taken for the maximum additional interval to verify the results (99 additional intervals):
+![](media/99_predicted.PNG)
+
+The first of these graphs show a relatively declining or plateauing curve (in terms of the line of best fit). This indicates reliability growth, since the amounts
+of failures starts to happen less and less as time increases. The second graph confirms this, as it shows a much less steep curve going to 99 additional intervals. 
+Therefore, the system does exhibit some reliability growth, as the failures over time intervals is predicted by C-SFRAT to be plateauing.
+
+
+The second graph plots the failure intensity with the default target failure intensity of 1.0 (default to C-SFRAT tool). From this plot it appears that the failure 
 intensity is quite large and does not show promise in hitting the 1.0 target. Thus, adjusting and additional testing is needed, or features must be deferred until 
 later. 
 Adjusting the target failure intensity to half of the default (0.5) was plotted as such:

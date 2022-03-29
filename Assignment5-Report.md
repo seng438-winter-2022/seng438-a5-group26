@@ -50,18 +50,17 @@ The picture shows the models that have a critic of 1.0 or very close to 1.0 and 
 
 The following two figures are the failures per interval graph using the best model (DW3 on F) and the failure intensity using the best model(DW3 onF) <br />
 ![](media/failsperinterval_dw3.PNG)
-<br />
-
-<br />
 ![](media/failureintensity_DW3.PNG)
-<br />
-The above graph plots the failure intensity with the default target failure intensity of 1.0 (default to C-SFRAT tool). From this plot it appears that the failure 
+
+<br />The above graph plots the failure intensity with the default target failure intensity of 1.0 (default to C-SFRAT tool). From this plot it appears that the failure 
 intensity is quite large and does not show promise in hitting the 1.0 target. Thus, adjusting and additional testing is needed, or features must be deferred until 
 later. 
-Adjusting the target failure intensity to half of the default (0.5) was plotted as such:<br />
-
-<br />
-C-SFRAT thus indicates that the software will reasonably hit the new target failure intensity rate of 0.5, using the predictive tool of C-SFRAT.
+Adjusting the target failure intensity to half of the default (0.5) was plotted as such:
+![](media/FailureIntensity_Target0.5.PNG)
+C-SFRAT thus indicates that the software will reasonably hit the new target failure intensity rate of 0.5, using the predictive tool of C-SFRAT. Specifically, 
+C-SFRAT indicates that the system will hit the target failure intensity rate at an interval of 52. Note, however, that this only occurs after the original testing
+intervals is finished, but the trend appears close enough (decreasing close to the target) immediately after the 32 initial intervals. Thus, it reasonably meets
+the 0.5 target.
 <br />
 Thus, based on a relatively high failure target intensity rate, the system under test does not appear to meet the threshold based on the failure intensity plot. 
 However, for lower values for the target failure intensity rate, the system does appear to reasonably hit the target based on C-SFRAT's predictions. Therefore, a range

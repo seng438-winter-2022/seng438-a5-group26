@@ -83,23 +83,25 @@ around 0.5 or lower for the target failure intensity rate is sufficient, while a
 The assement done with the RDC produced varying results depending on our metrics. As shown in the 3 figures below, depending on the reliability metrics, the program may or may not be considered reliable.
 
 ![](media/2%20Failures.png)
-*Figure 1: 2 Failures per 10,000 input events*
+*Figure 1: 2 Failures per 10,000 seconds*
 
-For an acceptable failure rate of 2 for every 10,000 input events, the software is clearly not reliable and should be rejected. All datapoints are firmly rooted in the *reject* zone indicating that much work still remains to be done to make the program reliable.
+For an acceptable failure rate of 2 for every 10,000 seconds, the software is clearly not reliable and should be rejected. All datapoints are firmly rooted in the *reject* zone indicating that much work still remains to be done to make the program reliable.
 
 ![](media/4%20Failures.png)
-*Figure 2: 4 Failures per 10,000 input events*
+*Figure 2: 4 Failures per 10,000 seconds*
 
-For an acceptable failure rate of 4 for every 10,000 input events, the software is much more reliable and can be accepted. Though the graph varies into the *reject* zone, for the most part if has stayed in the *continue test* zone, and eventually entered the *accept* zone, indicating a positive trend. To ensure the reliability of the software, additional testing can still be done to see a more obvious trend into *accepting*.
+For an acceptable failure rate of 4 for every 10,000 seconds, the software is much more reliable and can be accepted. Though the graph varies into the *reject* zone, for the most part if has stayed in the *continue test* zone, and eventually entered the *accept* zone, indicating a positive trend. To ensure the reliability of the software, additional testing can still be done to see a more obvious trend into *accepting*.
 
 ![](media/8%20Failures.png)
-*Figure 3: 8 Failures per 10,000 input events*
+*Figure 3: 8 Failures per 10,000 seconds*
 
-For an acceptable failure rate of 8 for every 10,000 input events, the software is quite clearly reliable. Though there is a brief instance of it entering the *reject* zone, it quite quickly becomes *acceptable* and stays in firmly in this zone for the rest of the data. No additional reliability data would be necessary to see that this software matches our criteria of 8/10,000.
+For an acceptable failure rate of 8 for every 10,000 seconds, the software is quite clearly reliable. Though there is a brief instance of it entering the *reject* zone, it quite quickly becomes *acceptable* and stays in firmly in this zone for the rest of the data. No additional reliability data would be necessary to see that this software matches our criteria of 8/10,000.
 
 # 4. Comparison of Results
+For the RDC the software is acceptable if the failure rate is 4 per 10,000 seconds or higher. Other wise this software is unacceptable. Similarily, for reliability growth analysis, the software will be come acceptable at failure intesity of 0.5, any higher will mean that the software is unacceptable for release.  
 
 # 5. Discussion on Similarity and Differences of the Two Techniques
+Both of these techniques are used to understand the reliablility of the system using failure data. Using RDC, the system can be analyzed upto the lastest failure and whether or not the system needs more testing, whereas using reliability growth analysis the trend of the system's relability can be determined and whether or not this is an acceptable goal given the failure data. 
 
 # 6. How the team work/effort was divided and managed
 Team work was divided into pairs to practice pair programming. Part 1 was given to Jared and Jordan while part 2 was given to Liana and Amir.

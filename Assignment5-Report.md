@@ -41,6 +41,7 @@ The overall plot is observed below:
 
 ![](media/exported_part1_allmodels.png) 
 
+![](media/ModelComparisons.PNG)
 ...
 
 # 3. Assessment Using Reliability Demonstration Chart

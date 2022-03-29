@@ -90,7 +90,7 @@ For an acceptable failure rate of 2 for every 10,000 seconds, the software is cl
 ![](media/4%20Failures.png)
 *Figure 2: 4 Failures per 10,000 seconds*
 
-For an acceptable failure rate of 4 for every 10,000 seconds, the software is much more reliable and can be accepted. Though the graph varies into the *reject* zone, for the most part if has stayed in the *continue test* zone, and eventually entered the *accept* zone, indicating a positive trend. To ensure the reliability of the software, additional testing can still be done to see a more obvious trend into *accepting*.
+For an acceptable failure rate of 4 for every 10,000 seconds, the software is much more reliable and can be accepted. Though the graph varies into the *reject* zone, for the most part if has stayed in the *continue test* zone, and eventually entered the *accept* zone, indicating a positive trend. To ensure the reliability of the software, additional testing can still be done to see a more obvious trend into *accepting*. This MTTF was chosen because it is reasonable based on the data, the RDC reamins mostly in the continue testing range and the other two graphs show the affects very clearly of halfing and doubling it. 
 
 ![](media/8%20Failures.png)
 *Figure 3: 8 Failures per 10,000 seconds*

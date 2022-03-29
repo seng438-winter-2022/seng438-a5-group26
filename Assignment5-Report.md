@@ -8,7 +8,6 @@
 | Amir Abdrakmanov | 30085827 | aabdrakmanov   |
 | Jared Lundy      | 30086687 | jared840       |
 | Jordan Lundy     | 30086686 | jordan427-prog |
-|
 
 **Table of Contents**
 1. [Introduction](#1-introduction)

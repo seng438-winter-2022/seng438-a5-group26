@@ -41,7 +41,9 @@ The overall plot is observed below:
 
 ![](media/exported_part1_allmodels.png) 
 
+The models were then compared based on their best fit using the model comaprison tool in C-SFRAT with equal metric weights for LLF,AIC,BIC,SSE.
 ![](media/ModelComparisons.PNG)
+The picture shows the models that have a critic of 1.0 or very close to 1.0 and therefore any choice of these models is good to use for our data. Specifically, the discrete weibull type 3 on covariet F has a 1.0 critic for mean and median and therefore is the best model to use for our data based on the model comparison.
 ...
 
 # 3. Assessment Using Reliability Demonstration Chart

@@ -48,10 +48,24 @@ The models were then compared based on their best fit using the model comaprison
 ![](media/ModelComparisons.PNG)
 The picture shows the models that have a critic of 1.0 or very close to 1.0 and therefore any choice of these models is good to use for our data. Specifically, the discrete weibull type 3 on covariate F has a 1.0 critic for mean and median and therefore is the best model to use for our data based on the model comparison. All other ran models had at most 0.98 Critic and thus were not as strong models according to the comparison tool.
 
-The following two figures are the failures per interval graph using the best model (DW3 on F) and the failure intensity using the best model(DW# onF) <br />
+The following two figures are the failures per interval graph using the best model (DW3 on F) and the failure intensity using the best model(DW3 onF) <br />
 ![](media/failsperinterval_dw3.PNG)
+<br />
 
+<br />
 ![](media/failureintensity_DW3.PNG)
+<br />
+The above graph plots the failure intensity with the default target failure intensity of 1.0 (default to C-SFRAT tool). From this plot it appears that the failure 
+intensity is quite large and does not show promise in hitting the 1.0 target. Thus, adjusting and additional testing is needed, or features must be deferred until 
+later. 
+Adjusting the target failure intensity to half of the default (0.5) was plotted as such:<br />
+
+<br />
+C-SFRAT thus indicates that the software will reasonably hit the new target failure intensity rate of 0.5, using the predictive tool of C-SFRAT.
+<br />
+Thus, based on a relatively high failure target intensity rate, the system under test does not appear to meet the threshold based on the failure intensity plot. 
+However, for lower values for the target failure intensity rate, the system does appear to reasonably hit the target based on C-SFRAT's predictions. Therefore, a range
+around 0.5 or lower for the target failure intensity rate is sufficient, while anything near 1.0 or above is too large.
 
 # 3. Assessment Using Reliability Demonstration Chart
 The assement done with the RDC produced varying results depending on our metrics. As shown in the 3 figures below, depending on the reliability metrics, the program may or may not be considered reliable.

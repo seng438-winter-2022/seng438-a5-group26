@@ -108,6 +108,9 @@ Team work was divided into pairs to practice pair programming. Part 1 was given 
 Each pair worked on the reliability testing before coming together to compare results. From here, the report was built together.
 
 # 7. Difficulties encountered, challenges overcome, and lessons learned
+For part 1, the actual tool softwares provided for the lab was a challenge. STRAT was not runnable for its part one functionality, and we had to resort to C-SFRAT
+instead. C-SFRAT was limited, however, in its graphical displays for part one. Specifically, C-SFRAT does not support a Time-Between-Failures graph, or a reliability
+plot, and thus could not be included in the report. Additionally, C-SFRAT 
 In part 2, forming the charts was a little confusing when trying to find out which cells to modify and how to modify them so that the chart would appear properly. After some trial and error, we made it work.
 
 # 8. Comments/feedback on the lab itself

@@ -113,6 +113,7 @@ instead. C-SFRAT was limited, however, in its graphical displays for part one. S
 plot, and thus could not be included in the report. Additionally, C-SFRAT does not provide a laplace test functionality, so this part of part one was also omitted
 from our report. Since C-SFRAT was the only tool that worked for part one, we were limited to only C-SFRAT's functionalities, which resulted in us having to omit
 the functionalities (Laplace Test), and graphs (Time between failures and Reliability) since C-SFRAT did not support them.
+
 In part 2, forming the charts was a little confusing when trying to find out which cells to modify and how to modify them so that the chart would appear properly. After some trial and error, we made it work.
 
 # 8. Comments/feedback on the lab itself

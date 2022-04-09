@@ -46,6 +46,8 @@ The initial failure intensity was also plotted with these models as such:
 The models were then compared based on their best fit using the model comaprison tool in C-SFRAT with equal metric weights (of 1.0 each) for LLF,AIC,BIC,SSE.
 ![](media/ModelComparisons.PNG)
 The picture shows the models that have a critic of 1.0 or very close to 1.0 and therefore any choice of these models is good to use for our data. Specifically, the discrete weibull type 3 on covariate F has a 1.0 critic for mean and median and therefore is the best model to use for our data based on the model comparison. All other ran models had at most 0.99 Critic and thus were not as strong models according to the comparison tool.
+Therefore, the two best models to be selected are: Discrete Weibull type III (DW3 on F), with a critic of 1.0, and any of the critics of 0.99 as the other. 
+<br /> **So DW3(F) and Geometric (GM(F)) were selected as the top two models.**
 
 The following two figures are the failures per interval graph using the best model (DW3 on F) and the failure intensity using the best model(DW3 onF) <br />
 ![](media/failsperinterval_dw3.PNG)

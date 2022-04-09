@@ -49,6 +49,19 @@ The picture shows the models that have a critic of 1.0 or very close to 1.0 and 
 Therefore, the two best models to be selected are: Discrete Weibull type III (DW3 on F), with a critic of 1.0, and any of the critics of 0.99 as the other. 
 <br /> **So DW3(F) and Geometric (GM(F)) were selected as the top two models.**
 
+<br />
+Following the comparison of models, range analysis using laplace test or an equivalent method was to be used to determine the permissible, useful range of data to 
+be used. Ideally, a laplace test would be run within the C-SFRAT application to determine what range of data is valid to use, and if the laplace test demonstrates 
+reliabilitiy growth. However, since C-SFRAT was the only tool that was able to work for our group, we were limited to the functionalities of the C-SFRAT tool. 
+As a result, since C-SFRAT has no range analysis or laplace test capabilities, it was impossible to perform such a test, and thus the entire range of failure
+data must be treated as valid (since no rigorous test available). Thus, interval 0-32 given is treated as valid and thus the range of useful data for our testing (as limited by the provided C-SFRAT tool for the lab).
+<br /> Ideally, a laplace test would be ran within the tool that would show the laplace plot. Any range for the data above +2 would be considered reliability decrease
+, while any value below -2 for the laplace would be increasing reliability (and any reliability model may be used). 
+In between, any value between -2 and +2 would be classified as stable reliability. Most importantly, any data where the laplace value is greater than -2 should be 
+omitted in the range.
+As previously mentioned, however, this is not possible with the tool provided in the lab that worked for our group, CSFRAT, and such the interval should remain
+unchanged (assumed laplace >=-2).
+
 The following two figures are the failures per interval graph using the best model (DW3 on F) and the failure intensity using the best model(DW3 onF) <br />
 ![](media/failsperinterval_dw3.PNG)
 ![](media/failureintensity_DW3.PNG)

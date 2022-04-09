@@ -105,6 +105,19 @@ However, for lower values for the target failure intensity rate, the system does
 around 0.5 or lower for the target failure intensity rate is sufficient, while anything near 1.0 or above is too large.
 
 ## Advantages and Disadvantages of Reliability Growth Analysis
+One advantage of reliability growth analysis is the number of models available to analyze. For example, logarithmic Poisson, Geometric, Discrete Weibull, etc. 
+This provides us with many models to compare, contrast and analyze our data to find specifically how reliable our system is. 
+One disadvantage of reliability growth testing is the differences in the models. For example, basic exponential is optimistic, while Poisson is pessimistic when
+estimating the lamba/lambdaF ratio. This may cause an issue if these models are very different from eachother, as they could contradict eachother and lead to confusion
+rather than reliability evidence for data.
+Another advantage of reliability growth analysis is that it helps to estimate when to release a product (based on reliability) and to estimate the required fixes to 
+reach an optimal reliability growth. 
+A disadvantage of reliability growth analysis is also the best fit for the models determination, which can be very difficult if no tools are available, and using
+a model that doesn't have the best fit is suboptimal for analysis purposes.
+Another advantage is that it measures and plots improvements in the system over time, which helps to guide testing for the project, as well as release scheduling.
+Overall, the main advantage of reliability growth testing is it allows us to measure the trend of reliability with the system (does it display growth?), and lets us 
+know whether additional testing or deferring should be done (if no growth observed). It provides an easy to observe decision based on if the data shows reliability
+growth or not, and then allows developers to make an informed decision on the release of the system based on its growth.
 
 
 

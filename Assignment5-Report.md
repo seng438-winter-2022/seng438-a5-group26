@@ -43,11 +43,15 @@ The overall plot is observed below:
 The initial failure intensity was also plotted with these models as such:
 ![](media/failureIntensity_initial.PNG)
 
+## Model Comparison 
+
 The models were then compared based on their best fit using the model comaprison tool in C-SFRAT with equal metric weights (of 1.0 each) for LLF,AIC,BIC,SSE.
 ![](media/ModelComparisons.PNG)
 The picture shows the models that have a critic of 1.0 or very close to 1.0 and therefore any choice of these models is good to use for our data. Specifically, the discrete weibull type 3 on covariate F has a 1.0 critic for mean and median and therefore is the best model to use for our data based on the model comparison. All other ran models had at most 0.99 Critic and thus were not as strong models according to the comparison tool.
 Therefore, the two best models to be selected are: Discrete Weibull type III (DW3 on F), with a critic of 1.0, and any of the critics of 0.99 as the other. 
 <br /> **So DW3(F) and Geometric (GM(F)) were selected as the top two models.**
+
+## Range Analysis
 
 <br />
 Following the comparison of models, range analysis using laplace test or an equivalent method was to be used to determine the permissible, useful range of data to 
@@ -61,6 +65,8 @@ In between, any value between -2 and +2 would be classified as stable reliabilit
 omitted in the range.
 As previously mentioned, however, this is not possible with the tool provided in the lab that worked for our group, CSFRAT, and such the interval should remain
 unchanged (assumed laplace >=-2).
+
+## CSFRAT Plots
 
 <br /> Next, the plots available in C-SFRAT were created using the best model selected previously. The two plots available via the tool are: fails/time-interval
 and failure intensity per interval. Again, we were limited by the functionality of the tool provided for the lab, and as such these are the only graphs available
@@ -81,6 +87,7 @@ The first of these graphs show a relatively declining or plateauing curve (in te
 of failures starts to happen less and less as time increases. The second graph confirms this, as it shows a much less steep curve going to 99 additional intervals. 
 Therefore, the system does exhibit some reliability growth, as the failures over time intervals is predicted by C-SFRAT to be plateauing.
 
+## Discussion on decision making for target failure intensity
 
 The second graph plots the failure intensity with the default target failure intensity of 1.0 (default to C-SFRAT tool). From this plot it appears that the failure 
 intensity is quite large and does not show promise in hitting the 1.0 target. Thus, adjusting and additional testing is needed, or features must be deferred until 
@@ -95,6 +102,10 @@ the 0.5 target.
 Thus, based on a relatively high failure target intensity rate, the system under test does not appear to meet the threshold based on the failure intensity plot. 
 However, for lower values for the target failure intensity rate, the system does appear to reasonably hit the target based on C-SFRAT's predictions. Therefore, a range
 around 0.5 or lower for the target failure intensity rate is sufficient, while anything near 1.0 or above is too large.
+
+## Advantages and Disadvantages of Reliability Growth Analysis
+
+
 
 # 3. Assessment Using Reliability Demonstration Chart
 The assement done with the RDC produced varying results depending on our metrics. As shown in the 3 figures below, depending on the reliability metrics, the program may or may not be considered reliable.

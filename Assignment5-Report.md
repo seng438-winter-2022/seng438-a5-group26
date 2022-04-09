@@ -135,4 +135,6 @@ the functionalities (Laplace Test), and graphs (Time between failures and Reliab
 In part 2, forming the charts was a little confusing when trying to find out which cells to modify and how to modify them so that the chart would appear properly. After some trial and error, we made it work.
 
 # 8. Comments/feedback on the lab itself
-None.
+One comment regarding this lab was the limitations the provided tools caused for part one. Part one is limited by the functionality of the tools provided. For example,
+since C-SFRAT was the tool that worked for part one, we were limited to the graphs and functions of this tool, which unfortunately did not include laplace tests
+and reliability graph, for example. 

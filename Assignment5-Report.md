@@ -62,6 +62,9 @@ omitted in the range.
 As previously mentioned, however, this is not possible with the tool provided in the lab that worked for our group, CSFRAT, and such the interval should remain
 unchanged (assumed laplace >=-2).
 
+<br /> Next, the plots available in C-SFRAT were created using the best model selected previously. The two plots available via the tool are: fails/time-interval
+and failure intensity per interval. Again, we were limited by the functionality of the tool provided for the lab, and as such these are the only graphs available
+by the tool to be analyzed.
 The following two figures are the failures per interval graph using the best model (DW3 on F) and the failure intensity using the best model(DW3 onF) <br />
 ![](media/failsperinterval_dw3.PNG)
 ![](media/failureintensity_DW3.PNG)

@@ -88,6 +88,7 @@ of failures starts to happen less and less as time increases. The second graph c
 Therefore, the system does exhibit some reliability growth, as the failures over time intervals is predicted by C-SFRAT to be plateauing.
 
 ## Discussion on decision making for target failure intensity
+Due to the limitations of the CFRAT tool, we will do discussion on the decision making of a target failure intensity, rather than a failure rate. SFRAT doesn't have a failure rate plot, but it does have a failure intensity, which we can analyze.
 
 The second graph plots the failure intensity with the default target failure intensity of 1.0 (default to C-SFRAT tool). From this plot it appears that the failure 
 intensity is quite large and does not show promise in hitting the 1.0 target. Thus, adjusting and additional testing is needed, or features must be deferred until 

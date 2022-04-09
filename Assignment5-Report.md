@@ -143,7 +143,7 @@ For an acceptable failure rate of 8 for every 10,000 seconds, the software is qu
 For the RDC the software is acceptable if the failure rate is 4 per 10,000 seconds or higher. Other wise this software is unacceptable. Similarily, for reliability growth analysis, the software will be come acceptable at failure intesity of 0.5, any higher will mean that the software is unacceptable for release. Though both of these methods provide different kinds of results, we can see from both that depending on our minimal tolerance for error, the software can be accepted.
 
 # 5. Discussion on Similarity and Differences of the Two Techniques
-Both of these techniques are used to understand the reliablility of the system using failure data. Using RDC, the system can be analyzed upto the lastest failure and whether or not the system needs more testing, whereas using reliability growth analysis the trend of the system's relability can be determined and whether or not this is an acceptable goal given the failure data. 
+Both of these techniques are used to understand the reliablility of the system using failure data. Using RDC, the system can be analyzed upto the lastest failure and whether or not the system needs more testing, whereas using reliability growth analysis the trend of the system's relability can be determined and whether or not this is an acceptable goal given the failure data. Therefore, these techniques are similar in the analysis they provide (determining reliability using failure data), but are different in the way they determine the reliability.
 
 # 6. How the team work/effort was divided and managed
 Team work was divided into pairs to practice pair programming. Part 1 was given to Jared and Jordan while part 2 was given to Liana and Amir.

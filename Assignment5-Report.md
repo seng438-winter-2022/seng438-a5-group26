@@ -159,6 +159,9 @@ the functionalities (Laplace Test), and graphs (Time between failures and Reliab
 
 In part 2, forming the charts was a little confusing when trying to find out which cells to modify and how to modify them so that the chart would appear properly. After some trial and error, we made it work.
 
+<br/ >
+Some lessons learned included that we learned how to use a software tool (SFRAT) to perform reliability growth analysis. We also learned how to interpret and analyze the results from this tool to understand its usage in software testing, as well as how to implement appropriate decisions based on such results. We also learned how the models work by getting hands on experience with them. We also learned how to use a RDC and how manipulating variables like MTTF changes the RDC. 
+
 # 8. Comments/feedback on the lab itself
 One comment regarding this lab was the limitations the provided tools caused for part one. Part one is limited by the functionality of the tools provided. For example,
 since C-SFRAT was the tool that worked for part one, we were limited to the graphs and functions of this tool, which unfortunately did not include laplace tests
